@@ -1,0 +1,428 @@
+# OS_FIT Diario - selezione del catalogo predefinito
+# Formato: codice_ciqual | nome italiano | categoria | stagione | porzione | nota tipica
+# - I valori nutrizionali NON sono qui: li prende build_catalog.py dalla tabella Ciqual 2025 originale.
+# - stagione: chiave del calendario (vedi SEASONS in build_catalog.py), "imp" = esotico importato, vuoto = non indicata dalla fonte.
+# - porzione: codice delle porzioni standard LARN 2024 (vedi PORTIONS in build_catalog.py), vuoto = solo grammi.
+# - nota tipica: prodotto del territorio che usa i valori del prodotto generico (nessuna scheda dedicata nella fonte).
+
+## FRUTTA FRESCA
+13039|Mela, con buccia, cruda|frutta|mele|F|Mela Rossa Cuneo IGP: valori della mela generica
+13396|Mela, senza buccia, cruda (media varietà)|frutta|mele|F|
+13086|Mela Golden, senza buccia, cruda|frutta|mele|F|
+13191|Mela Gala, senza buccia, cruda|frutta|mele|F|
+13121|Mela Granny Smith, senza buccia, cruda|frutta|mele|F|
+13175|Mela cotta al forno, senza buccia|frutta|mele|F|
+13037|Pera, con buccia, cruda|frutta|pere|F|
+13397|Pera, senza buccia, cruda (media varietà)|frutta|pere|F|
+13188|Pera Conference, senza buccia, cruda|frutta|pere|F|
+13189|Pera Williams, senza buccia, cruda|frutta|pere|F|
+13005|Banana, polpa|frutta|imp|F|
+13034|Arancia, polpa|frutta|arance|F|
+13024|Clementina o mandarino, polpa|frutta|clementine|F|
+13021|Kiwi, polpa|frutta|kiwi|F|Kiwi del Cuneese: valori del kiwi generico
+13009|Limone, polpa|frutta|limoni||
+13040|Pompelmo, polpa|frutta|pompelmi|F|
+13398|Pesca, senza buccia, cruda (media)|frutta|pesche|F|
+13043|Pesca, con buccia, cruda|frutta|pesche|F|
+13399|Pesca noce (nettarina), con buccia, cruda|frutta|pesche|F|
+13000|Albicocca, senza nocciolo, cruda|frutta|albicocche|F|
+13100|Susina (prugna), con buccia, cruda|frutta|susine|F|
+13008|Ciliegia, senza nocciolo, cruda|frutta|ciliegie|F|
+13014|Fragola, cruda|frutta|fragole|F|Fragole del Cuneese: valori della fragola generica
+13015|Lampone, crudo|frutta|lamponi|F|Piccoli frutti del Cuneese: valori generici
+13028|Mirtillo, crudo|frutta|mirtilli|F|Piccoli frutti del Cuneese: valori generici
+13029|Mora, cruda|frutta||F|
+13395|Uva, cruda (media)|frutta|uva|F|
+13044|Uva bianca, cruda|frutta|uva|F|
+13045|Uva nera, cruda|frutta|uva|F|
+13012|Fico, crudo|frutta|fichi|F|
+13066|Cachi (kaki), cruda|frutta|kaki|F|
+13036|Anguria, polpa|frutta|anguria|F|
+13026|Melone cantalupo, polpa|frutta|meloni|F|
+13742|Melone giallo (d'inverno), polpa|frutta|meloni|F|
+13564|Nespola, cruda|frutta|nespole|F|
+13010|Mela cotogna, cruda|frutta||F|
+13018|Melagrana, arilli con semi|frutta||F|
+13002|Ananas, polpa|frutta|imp|F|
+13025|Mango, polpa|frutta|imp|F|
+13004|Avocado, polpa|frutta|imp||
+15024|Castagne, crude|frutta|castagne|FS|Castagna Cuneo IGP: valori della castagna generica
+15020|Castagne, bollite|frutta|castagne||Castagna Cuneo IGP: valori della castagna generica
+15021|Castagne arrostite (caldarroste)|frutta|castagne||Castagna Cuneo IGP: valori della castagna generica
+
+## FRUTTA SECCA, ESSICCATA E SEMI
+15004|Nocciole, senza sale|frutta_secca||FS|Nocciola Piemonte IGP: valori della nocciola generica
+15033|Nocciole tostate, senza sale|frutta_secca||FS|Nocciola Piemonte IGP: valori della nocciola generica
+15005|Noci, gherigli|frutta_secca||FS|
+15000|Mandorle, con pellicina, senza sale|frutta_secca||FS|
+15041|Mandorle pelate, senza sale|frutta_secca||FS|
+15044|Pistacchi tostati, senza sale|frutta_secca||FS|
+15001|Arachidi, senza sale|frutta_secca||FS|
+15054|Anacardi tostati, senza sale|frutta_secca||FS|
+15025|Pinoli|frutta_secca||FS|
+15010|Semi di sesamo|frutta_secca||FS|
+15047|Semi di chia|frutta_secca||FS|
+15045|Semi di girasole tostati, salati|frutta_secca||FS|
+15202|Burro di arachidi|frutta_secca|||
+13011|Datteri secchi, senza nocciolo|frutta_secca||FS|
+13046|Uvetta (uva passa)|frutta_secca||FS|
+13042|Prugne secche, senza nocciolo|frutta_secca||FS|
+13013|Fichi secchi|frutta_secca||FS|
+13001|Albicocche secche|frutta_secca||FS|
+13111|Mela essiccata|frutta_secca||FS|
+
+## VERDURE E ORTAGGI
+20385|Pomodoro, crudo (media)|verdura|pomodori|V|
+20172|Pomodorino ciliegino, crudo|verdura|pomodori|V|
+20192|Pomodoro cuore di bue, crudo|verdura|pomodori|V|
+20020|Zucchina, cruda|verdura|zucchine|V|
+20021|Zucchina, cotta|verdura|zucchine|V|
+20053|Melanzana, cruda|verdura|melanzane|V|
+20002|Melanzana, cotta|verdura|melanzane|V|
+20041|Peperone (verde, giallo o rosso), crudo|verdura|peperoni|V|Peperone di Carmagnola: valori del peperone generico
+20087|Peperone rosso, crudo|verdura|peperoni|V|
+20168|Peperone giallo, crudo|verdura|peperoni|V|
+19999|Peperone, cotto (media)|verdura|peperoni|V|
+20009|Carota, cruda|verdura|carote|V|
+20352|Carota, bollita|verdura|carote|V|
+4008|Patata, sbucciata, cruda|verdura|patate|PT|
+4003|Patata, bollita|verdura|patate|PT|
+4002|Patata al forno, sbucciata|verdura|patate|PT|
+4101|Patata dolce (batata), cruda|verdura||PT|
+20034|Cipolla, cruda|verdura||V|
+20035|Cipolla, cotta|verdura||V|
+11000|Aglio, crudo|verdura|aglio||
+20039|Porro, crudo|verdura||V|
+20023|Sedano (coste), crudo|verdura|sedano|V|
+20028|Finocchio, crudo|verdura|finocchi|V|
+20118|Finocchio, bollito|verdura|finocchi|V|
+20059|Spinaci, crudi|verdura|spinaci|V|
+20336|Spinaci, bolliti|verdura|spinaci|V|
+20083|Spinaci surgelati, crudi|verdura||V|
+20004|Coste di bietola, crude|verdura|bietole|V|
+20301|Bietole (foglie e coste), bollite|verdura|bietole|V|
+20031|Lattuga, cruda|verdura|insalate|I|
+20123|Lattuga batavia, cruda|verdura|insalate|I|
+20099|Valeriana (songino), cruda|verdura|insalate|I|
+20217|Rucola, cruda|verdura|insalate|I|
+20026|Indivia belga, cruda|verdura||I|
+20019|Cetriolo, con buccia, crudo|verdura|cetrioli|V|
+20057|Broccoli, crudi|verdura|broccoli|V|
+20350|Broccoli, bolliti|verdura|broccoli|V|
+20016|Cavolfiore, crudo|verdura|cavolfiori|V|
+20017|Cavolfiore, bollito|verdura|cavolfiori|V|
+20069|Cavolo verde, crudo|verdura|cavoli|V|
+20116|Cavolo bianco (cappuccio), crudo|verdura|cavoli|V|
+20014|Cavolo rosso, crudo|verdura|cavoli|V|
+20346|Cavolo riccio (kale), crudo|verdura|cavoli|V|
+20058|Cavolini di Bruxelles, crudi|verdura||V|
+20309|Cavolini di Bruxelles, bolliti|verdura||V|
+20052|Carciofo, crudo|verdura|carciofi|V|
+20000|Carciofo, cotto|verdura|carciofi|V|
+20279|Asparagi verdi, crudi|verdura|asparagi|V|
+20299|Asparagi verdi, bolliti|verdura|asparagi|V|
+20282|Asparagi bianchi, pelati, crudi|verdura|asparagi|V|
+20061|Fagiolini, crudi|verdura|fagiolini|V|
+20030|Fagiolini, cotti|verdura|fagiolini|V|
+20070|Fagiolini surgelati, crudi|verdura||V|
+20072|Piselli freschi, crudi|verdura|piselli|LC|
+20037|Piselli, cotti|verdura|piselli|LC|
+20084|Piselli surgelati, crudi|verdura||LC|
+20517|Fave fresche da sgranare, crude|verdura|fave|LC|
+20166|Zucca, polpa, cruda|verdura|zucche|V|
+20138|Zucca butternut, polpa, cruda|verdura|zucche|V|
+20045|Ravanelli, crudi|verdura|ravanelli|V|
+20064|Rapa, sbucciata, cruda|verdura|rape|V|
+20010|Funghi (vari tipi), crudi|verdura||V|
+20160|Funghi porcini, crudi|verdura||V|
+20091|Barbabietola rossa, cruda|verdura||V|
+20003|Barbabietola rossa, cotta|verdura||V|
+20054|Cardo, crudo|verdura||V|Cardo gobbo di Nizza Monferrato: valori del cardo generico
+20241|Cardo, cotto|verdura||V|Cardo gobbo di Nizza Monferrato: valori del cardo generico
+20196|Topinambur, crudo|verdura||V|
+20181|Pastinaca, cruda|verdura||V|
+20066|Mais dolce in scatola, sgocciolato|verdura||V|
+11014|Prezzemolo, fresco|verdura|||
+11033|Basilico, fresco|verdura|||
+
+## LEGUMI
+20501|Fagioli secchi|legumi||LS|Fagiolo Cuneo IGP: valori del fagiolo generico
+20502|Fagioli, bolliti|legumi||LC|Fagiolo Cuneo IGP: valori del fagiolo generico
+20511|Fagioli in scatola, sgocciolati|legumi||LC|
+20503|Fagioli rossi, bolliti|legumi||LC|
+20524|Fagioli rossi in scatola, sgocciolati|legumi||LC|
+20516|Ceci secchi|legumi||LS|
+20507|Ceci, bolliti|legumi||LC|
+20532|Ceci in scatola, sgocciolati|legumi||LC|
+20359|Lenticchie secche (media)|legumi||LS|
+20360|Lenticchie, bollite (media)|legumi||LC|
+20535|Lenticchie rosse secche|legumi||LS|
+20589|Lenticchie rosse, bollite|legumi||LC|
+20515|Piselli secchi spezzati|legumi||LS|
+20506|Piselli spezzati, bolliti|legumi||LC|
+20518|Fave secche|legumi||LS|
+20500|Fave, bollite|legumi||LC|
+20534|Lupini secchi|legumi||LS|
+20901|Soia, semi secchi|legumi||LS|
+20904|Tofu al naturale|legumi||M|
+25621|Hummus di ceci (confezionato)|legumi|||
+
+## CEREALI, PASTA, RISO E FARINE
+9100|Riso bianco, crudo|cereali||C|Riso del Piemonte (vercellese, novarese): valori del riso bianco generico
+9104|Riso bianco, cotto, senza sale|cereali|||
+9101|Riso parboiled, crudo|cereali||C|
+9105|Riso parboiled, cotto, senza sale|cereali|||
+9102|Riso integrale, crudo|cereali||C|
+9103|Riso integrale, cotto, senza sale|cereali|||
+9119|Riso basmati, crudo|cereali||C|
+9125|Riso basmati, cotto, senza sale|cereali|||
+9109|Riso rosso, crudo|cereali||C|
+9810|Pasta di semola, secca, cruda|cereali||C|
+9811|Pasta di semola, cotta, senza sale|cereali|||
+9870|Pasta integrale, secca, cruda|cereali||C|
+9871|Pasta integrale, cotta, senza sale|cereali|||
+9821|Pasta secca all'uovo, cruda|cereali||C|
+9822|Pasta secca all'uovo, cotta, senza sale|cereali|||
+9815|Pasta fresca all'uovo, cruda|cereali||PF|Tajarin: valori della pasta fresca all'uovo generica
+9816|Pasta fresca all'uovo, cotta, senza sale|cereali|||
+9874|Pasta senza glutine, secca, cruda|cereali||C|
+25181|Pasta fresca ripiena di formaggio, cruda|cereali||PR|
+25149|Pasta fresca ripiena di formaggio, cotta|cereali||PR|
+25157|Pasta fresca ripiena di carne, cruda|cereali||PR|Agnolotti: valori della pasta ripiena di carne generica (confezionata)
+25158|Pasta fresca ripiena di carne, cotta|cereali||PR|Agnolotti: valori della pasta ripiena di carne generica (confezionata)
+26264|Gnocchi di patate, crudi|cereali||GN|
+25510|Gnocchi di patate, cotti|cereali||GN|
+9614|Farina di mais per polenta (precotta), cruda|cereali||C|
+9615|Polenta, cotta, senza sale|cereali|||
+9001|Farro, crudo|cereali||C|
+9321|Orzo perlato, crudo|cereali||C|
+9322|Orzo perlato, cotto, senza sale|cereali|||
+9340|Quinoa, cruda|cereali||C|
+9341|Quinoa, cotta, senza sale|cereali|||
+9380|Grano saraceno, crudo|cereali||C|
+9681|Cous cous, crudo|cereali||C|
+9683|Cous cous, cotto, senza sale|cereali|||
+9691|Bulgur, cotto, senza sale|cereali|||
+9310|Avena, cruda|cereali||C|
+32140|Fiocchi d'avena|cereali||CO|
+32005|Corn flakes, fortificati|cereali||CO|
+32014|Corn flakes, non fortificati|cereali||CO|
+32141|Muesli, non fortificato (media)|cereali||CO|
+9440|Farina di frumento T45 (francese, simile alla 00)|cereali|||
+9435|Farina di frumento T65 (francese, simile alla 0)|cereali|||
+9415|Farina di frumento integrale T150|cereali|||
+9610|Semola di grano duro|cereali|||
+9545|Farina di mais|cereali|||
+9480|Farina di farro|cereali|||
+9540|Farina di grano saraceno|cereali|||
+9520|Farina di riso|cereali|||
+9580|Farina di ceci|cereali|||
+9570|Farina di castagne|cereali|||
+4090|Fecola di patate|cereali|||
+9510|Amido di mais|cereali|||
+
+## PANE E PRODOTTI DA FORNO
+7000|Pane (media)|pane||P|
+7001|Pane bianco tipo baguette|pane||P|
+7110|Pane integrale|pane||P|
+7125|Pane di segale e frumento|pane||P|
+7255|Pane multicereali o ai semi|pane||P|
+7200|Pane in cassetta|pane||P|
+7111|Pane in cassetta integrale|pane||P|
+7170|Panino (pane per panini)|pane||P|
+7300|Fette biscottate|pane||CO|
+7340|Fette biscottate integrali|pane||CO|
+7525|Grissini, senza sesamo|pane||SP|Grissini torinesi: valori dei grissini generici
+38414|Grissini al sesamo|pane||SP|
+7351|Cracker di frumento|pane||SP|
+7349|Cracker integrali|pane||SP|
+7352|Gallette di riso soffiato, integrale|pane||SP|
+7500|Pangrattato|pane|||
+25404|Pizza margherita (confezionata)|pane||PZ|
+
+## CARNE
+36017|Petto di pollo, senza pelle, crudo|carne||M|
+36018|Petto di pollo, senza pelle, alla piastra|carne||M|
+36024|Coscia di pollo, solo carne, cruda|carne||M|
+36002|Coscia di pollo, con pelle, cruda|carne||M|
+36004|Coscia di pollo, con pelle, al forno|carne||M|
+36304|Fesa di tacchino (scaloppina), cruda|carne||M|
+36306|Fesa di tacchino (scaloppina), alla piastra|carne||M|
+6160|Manzo, fesa, cruda|carne||M|Carne cruda all'albese (Fassona): valori del manzo generico
+6116|Manzo, filetto, crudo|carne||M|
+6111|Manzo, controfiletto, crudo|carne||M|
+6201|Manzo, bistecca, cruda|carne||M|
+6200|Manzo, bistecca, alla piastra|carne||M|
+6250|Manzo macinato 5% grassi, crudo|carne||M|
+6252|Manzo macinato 10% grassi, crudo|carne||M|
+6254|Manzo macinato 15% grassi, crudo|carne||M|
+6231|Manzo per spezzatino, crudo|carne||M|
+6230|Manzo per spezzatino, cotto|carne||M|
+6151|Manzo, muscolo (geretto), bollito|carne||M|Bollito misto: valori del taglio generico
+6521|Vitello, fesa (scaloppina), cruda|carne||M|
+6520|Vitello, scaloppina, cotta|carne||M|
+6522|Vitello, filetto, crudo|carne||M|
+6550|Vitello, arrosto, crudo|carne||M|Vitello tonnato: valori del vitello arrosto generico
+6551|Vitello, arrosto, cotto|carne||M|Vitello tonnato: valori del vitello arrosto generico
+28204|Maiale, filetto, crudo|carne||M|
+28100|Maiale, braciola, cruda|carne||M|
+28101|Maiale, braciola, alla piastra|carne||M|
+28302|Maiale, lonza (lombo), cruda|carne||M|
+34001|Coniglio, carne, cruda|carne||M|
+21502|Agnello, cosciotto, crudo|carne||M|
+14002|Cinghiale, crudo|carne||M|
+6900|Cavallo, carne, cruda|carne||M|
+36700|Faraona, carne, cruda|carne||M|
+36201|Anatra, carne, cruda|carne||M|
+
+## SALUMI
+28902|Prosciutto cotto di alta qualità, senza cotenna|salumi||SA|
+28910|Prosciutto cotto scelto|salumi||SA|
+28844|Prosciutto crudo di Parma|salumi||SA|
+28812|Prosciutto crudo|salumi||SA|
+28503|Bresaola|salumi||SA|
+30350|Salame|salumi||SA|
+30789|Mortadella|salumi||SA|
+28850|Coppa|salumi||SA|
+28858|Pancetta|salumi||SA|
+30051|Salsiccia fresca di maiale, cruda|salumi||M|
+30134|Würstel|salumi||SA|
+28964|Fesa di tacchino cotta, a fette|salumi||SA|
+
+## PESCE E FRUTTI DI MARE
+26043|Merluzzo, crudo|pesce||PE|
+26025|Merluzzo, al vapore|pesce||PE|
+26048|Nasello, filetto surgelato, crudo|pesce||PE|
+26036|Salmone d'allevamento, crudo|pesce||PE|
+26161|Salmone selvatico, crudo|pesce||PE|
+26229|Salmone, alla piastra senza grassi|pesce||PE|
+26037|Salmone affumicato|pesce||PC|
+26053|Tonno fresco, crudo|pesce||PE|
+26039|Tonno al naturale in scatola, sgocciolato|pesce||PC|
+26245|Tonno sott'olio di girasole, sgocciolato|pesce||PC|
+27008|Trota d'allevamento, cruda|pesce||PE|
+27007|Trota, al vapore|pesce||PE|
+26088|Orata d'allevamento, cruda|pesce||PE|
+27031|Orata, al forno|pesce||PE|
+26065|Sardina, cruda|pesce||PE|
+26040|Sardine sott'olio d'oliva, sgocciolate|pesce||PC|
+26079|Acciuga, cruda|pesce||PE|
+26694|Filetti di acciuga salati, in olio d'oliva, sgocciolati|pesce||PC|Acciughe per la bagna càuda: valori del prodotto generico
+26098|Baccalà (merluzzo salato essiccato)|pesce||PC|
+26024|Baccalà, bollito|pesce||PE|
+26051|Sgombro, crudo|pesce||PE|
+26082|Pesce spada, crudo|pesce||PE|
+10021|Gamberi, crudi|pesce||PE|
+10007|Gamberi, bolliti|pesce||PE|
+10001|Calamari, crudi|pesce||PE|
+10016|Seppia, cruda|pesce||PE|
+10018|Polpo, crudo|pesce||PE|
+10079|Polpo, cotto|pesce||PE|
+10014|Cozze, crude|pesce||PE|
+10013|Cozze, bollite|pesce||PE|
+10017|Vongole, crude|pesce||PE|
+
+## UOVA
+22000|Uovo intero, crudo|uova||U|
+22010|Uovo sodo|uova||U|
+22505|Uovo al tegamino, senza grassi|uova||U|
+22502|Uova strapazzate, con grassi|uova|||
+22500|Frittata semplice|uova|||
+22001|Albume, crudo|uova|||
+22002|Tuorlo, crudo|uova|||
+
+## LATTE, YOGURT E DERIVATI
+19016|Latte vaccino intero (media)|latte||L|
+19033|Latte parzialmente scremato (media)|latte||L|
+19050|Latte scremato UHT|latte||L|
+19060|Latte parzialmente scremato, a ridotto contenuto di lattosio|latte||L|
+19200|Latte di capra intero UHT|latte||L|
+19593|Yogurt bianco|latte||Y|
+19594|Yogurt bianco 0% grassi|latte||Y|
+19860|Yogurt greco bianco|latte||Y|
+19724|Yogurt bianco ad alto contenuto di proteine|latte||Y|
+19587|Yogurt alla frutta, zuccherato|latte||Y|
+19865|Kefir di latte|latte||L|
+19417|Panna da cucina 30% grassi, UHT|latte|||
+19436|Panna leggera 12-20% grassi|latte|||
+18900|Bevanda di soia, non zuccherata, non fortificata|latte||L|
+18899|Bevanda d'avena, senza zuccheri aggiunti|latte||L|
+18904|Bevanda di riso|latte||L|
+18111|Bevanda di mandorla (media)|latte||L|
+
+## FORMAGGI
+12120|Parmigiano Reggiano|formaggi||FST|
+12123|Grana Padano|formaggi||FST|Grana Padano DOP, prodotto anche in Piemonte
+12524|Gorgonzola|formaggi||FST|Gorgonzola DOP (Novara e Piemonte)
+12121|Fontina|formaggi||FST|
+12761|Asiago|formaggi||FST|
+12122|Pecorino|formaggi||FST|
+12716|Provolone|formaggi||FST|
+12115|Emmental|formaggi||FST|
+12114|Groviera (Gruyère)|formaggi||FST|
+12100|Formaggio stagionato (media)|formaggi||FST|
+19590|Mozzarella vaccina|formaggi||FF|
+19591|Mozzarella di bufala|formaggi||FF|
+12072|Burrata|formaggi||FF|
+12828|Formaggio di siero di pecora (tipo ricotta)|formaggi||R|
+19584|Mascarpone|formaggi|||
+12068|Formaggio fresco spalmabile|formaggi||FF|
+12069|Formaggio fresco spalmabile, light|formaggi||FF|
+12805|Caprino fresco|formaggi||FF|
+12066|Feta|formaggi||FST|
+12300|Formaggio fuso a fette|formaggi||FST|
+
+## OLI E GRASSI
+17270|Olio extravergine di oliva|grassi||O|
+17440|Olio di semi di girasole|grassi|||
+17190|Olio di semi di mais|grassi|||
+17040|Olio di arachidi|grassi|||
+17001|Olio vegetale (media)|grassi|||
+16400|Burro|grassi||B|
+
+## CONDIMENTI E SALSE
+20170|Passata di pomodoro|condimenti|||
+20048|Pomodori pelati in scatola, sgocciolati|condimenti|||
+20068|Concentrato di pomodoro|condimenti|||
+11179|Pesto alla genovese (confezionato)|condimenti|||
+11054|Maionese|condimenti|||
+11018|Aceto di vino|condimenti|||
+11091|Aceto balsamico|condimenti|||
+13033|Olive verdi in salamoia|condimenti|||
+13032|Olive nere in salamoia|condimenti|||
+11017|Sale (non iodato)|condimenti|||
+11058|Sale iodato|condimenti|||
+25948|Brodo vegetale (da dado, ricostituito)|condimenti|||
+25930|Brodo di manzo (da dado, ricostituito)|condimenti|||
+
+## DOLCI E COLAZIONE
+24001|Biscotti secchi semplici|dolci||DO|
+24020|Biscotti integrali|dolci||DO|
+24049|Frollini al burro|dolci||DO|
+24430|Savoiardi|dolci||DO|
+7603|Cornetto (croissant), media|dolci||DO|
+31008|Miele|dolci|||
+31016|Zucchero bianco|dolci|||
+31017|Zucchero di canna|dolci|||
+31037|Confettura di albicocche|dolci|||
+31024|Confettura di fragole|dolci|||
+31006|Confettura o marmellata, frutta mista (media)|dolci|||
+31032|Crema spalmabile al cacao e nocciole|dolci|||
+31074|Cioccolato fondente 70%|dolci|||
+31005|Cioccolato fondente 50%|dolci|||
+31004|Cioccolato al latte|dolci|||
+18100|Cacao amaro in polvere|dolci|||
+19698|Tiramisù|dolci|||
+39527|Gelato in vaschetta o coppetta (media)|dolci|||
+
+## BEVANDE
+18004|Caffè, senza zucchero|bevande|||
+18151|Caffellatte o cappuccino, senza zucchero|bevande|||
+18020|Tè, senza zucchero|bevande|||
+2070|Succo d'arancia 100%|bevande|||
+2074|Succo di mela 100%|bevande|||
+5214|Vino rosso|bevande|||Barbera, Dolcetto, Nebbiolo: valori del vino rosso generico
+5215|Vino bianco secco|bevande|||
+5201|Spumante|bevande|||
+5001|Birra (4-5% vol)|bevande|||
+5030|Birra analcolica|bevande|||
